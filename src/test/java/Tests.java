@@ -3,22 +3,22 @@ import org.testng.annotations.Test;
 public class Tests extends SetUpScenario {
 
 
-    @Test(priority = 1)
+    @Test()
     public void openHomePage() {
         homePage.openHomePage();
     }
 
-    @Test(priority = 2)
+    @Test()
     public void openComputerPage() {
         computersPage.openComputersPage();
     }
 
-    @Test(priority = 3)
+    @Test()
     public void openDesktopPage(){
         desktopsPage.openDesktopPage();
     }
 
-    @Test(priority = 4)
+    @Test()
     public void openFirstDesktopInTheList(){
         desktopsPage.openFirstDesktopInTheList();
     }
